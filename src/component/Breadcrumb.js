@@ -4,12 +4,9 @@ import {Link} from 'react-router-dom';
 
 const Breadcrumb = (props) => {
     return(
-        <nav aria-label="breadcrumb bg-transparant">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><Link to="/">Home</Link></li>
-                <li class="breadcrumb-item active" aria-current="page">{props.productName}</li>
-            </ol>
-        </nav>
+        <div className="mx-3 p-5 pt-lg-3 bg-transparant">
+            <div><Link to="/">HOME</Link>&nbsp;&nbsp;&nbsp;<i class="far fa-angle-right"></i>&nbsp;&nbsp;PRODUCT PAGE</div>
+        </div>
     );
 }
 

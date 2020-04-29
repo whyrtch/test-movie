@@ -18,9 +18,13 @@ const Card = (props) => {
                         
                         <div className="card-img-overlay flex-bottom px-3 ">
                             <div className="w-100 bg-black-05 mx-3 px-2 row no-gutters border-radius-18">
-                                <div className="my-2 col-6 h4 text-white d-flex align-items-center">{props.title}</div>
+                                <div className="my-2 col-6 h4 text-white d-flex align-items-center">
+                                    <span>{props.title}</span>
+                                </div>
                                 <div className="my-2 col-6 d-flex justify-content-end">
-                                    <button className="rounded-circle">></button>
+                                    <button className="bg-transparant border-none">
+                                        <i class="fas fa-chevron-circle-right fa-2x"></i>
+                                    </button>
                                 </div>
                             </div> 
                         </div>

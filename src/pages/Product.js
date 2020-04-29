@@ -31,15 +31,9 @@ class Product extends Component {
                         <h1 className="py-4">{this.props.product.Title}</h1>
                         <h3 className="py-4">$555555</h3>
                         
-                        <h4 className="py-2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Parameter
+                        <h4 className="pt-2 pb-4">
+                            Parameter &nbsp; <i class="far fa-angle-down"></i>
                         </h4>
-
-                        <div className="collapse" id="collapseExample">
-                            <div className="card card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            </div>
-                        </div>
 
                         <div>
                             <h4>Description</h4>
